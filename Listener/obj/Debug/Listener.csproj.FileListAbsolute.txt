@@ -1,0 +1,9 @@
+F:\proyectos\C#\developing\jibril\Listener\bin\Debug\Listener.dll
+F:\proyectos\C#\developing\jibril\Listener\bin\Debug\Listener.pdb
+F:\proyectos\C#\developing\jibril\Listener\obj\Debug\Listener.dll
+F:\proyectos\C#\developing\jibril\Listener\obj\Debug\Listener.pdb
+F:\proyectos\C#\developing\jibril\Listener\obj\Debug\Listener.csprojResolveAssemblyReference.cache
+E:\desarrollo\jibril\Listener\bin\Debug\Listener.dll
+E:\desarrollo\jibril\Listener\bin\Debug\Listener.pdb
+E:\desarrollo\jibril\Listener\obj\Debug\Listener.dll
+E:\desarrollo\jibril\Listener\obj\Debug\Listener.pdb

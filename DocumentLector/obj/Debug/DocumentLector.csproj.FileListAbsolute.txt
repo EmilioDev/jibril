@@ -1,0 +1,9 @@
+F:\proyectos\C#\developing\jibril\DocumentLector\bin\Debug\DocumentLector.dll
+F:\proyectos\C#\developing\jibril\DocumentLector\bin\Debug\DocumentLector.pdb
+F:\proyectos\C#\developing\jibril\DocumentLector\obj\Debug\DocumentLector.csprojResolveAssemblyReference.cache
+F:\proyectos\C#\developing\jibril\DocumentLector\obj\Debug\DocumentLector.dll
+F:\proyectos\C#\developing\jibril\DocumentLector\obj\Debug\DocumentLector.pdb
+E:\desarrollo\jibril\DocumentLector\bin\Debug\DocumentLector.dll
+E:\desarrollo\jibril\DocumentLector\bin\Debug\DocumentLector.pdb
+E:\desarrollo\jibril\DocumentLector\obj\Debug\DocumentLector.dll
+E:\desarrollo\jibril\DocumentLector\obj\Debug\DocumentLector.pdb

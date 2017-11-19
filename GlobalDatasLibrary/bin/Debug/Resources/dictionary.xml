@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<phrases>
+  <jibril>
+	  <zh-CN>贾布里勒</zh-CN><!--chino simplificado-->
+    <es-ES>Jibril</es-ES>
+    <en-US>Jibril</en-US>
+    <pt-PT>Jibril</pt-PT>
+	  <ru-RU>Джибриль</ru-RU>
+	  <ja-JP>ジブリル</ja-JP>
+	  <de-DE>Jibril</de-DE>
+	  <ar-EG>جبريل</ar-EG><!-- arabe egipto-->
+  </jibril>
+  
+  <file>
+    <zh-CN>档案</zh-CN>
+    <es-ES>Archivo</es-ES>
+    <en-US>Archive</en-US>
+    <pt-PT>Arquivo</pt-PT>
+    <ru-RU>архив</ru-RU>
+    <ja-JP>アーカイブ</ja-JP>
+    <de-DE>Archiv</de-DE>
+    <ar-EG>أرشيف</ar-EG>
+  </file>
+
+  <home>
+    <zh-CN>引发</zh-CN>
+    <es-ES>Inicio</es-ES>
+    <en-US>Start</en-US>
+    <pt-PT>Home</pt-PT>
+    <ru-RU>инициирование</ru-RU>
+    <ja-JP>ホーム</ja-JP>
+    <de-DE>Startseite</de-DE>
+    <ar-EG>استهلال</ar-EG>
+  </home>
+  
+  <comment>
+    <zh-CN>评论</zh-CN>
+    <es-ES>Comentarios</es-ES>
+    <en-US>Comments</en-US>
+    <pt-PT>Comentários</pt-PT>
+    <ru-RU>комментарии</ru-RU>
+    <ja-JP>コメント</ja-JP>
+    <de-DE>Kommentare</de-DE>
+    <ar-EG>تعليقات</ar-EG>
+  </comment>
+
+  <view>
+    <zh-CN>视图</zh-CN>
+    <es-ES>Ver</es-ES>
+    <en-US>Look</en-US>
+    <pt-PT>Veja</pt-PT>
+    <ru-RU>вид</ru-RU>
+    <ja-JP>参照してください</ja-JP>
+    <de-DE>Siehe</de-DE>
+    <ar-EG>رأي</ar-EG>
+  </view>
+
+  <form>
+    <zh-CN>形式</zh-CN>
+    <es-ES>Formularios</es-ES>
+    <en-US>Forms</en-US>
+    <pt-PT>Formulários</pt-PT>
+    <ru-RU>формы</ru-RU>
+    <ja-JP>フォーム</ja-JP>
+    <de-DE>Formulare</de-DE>
+    <ar-EG>أشكال</ar-EG>
+  </form>
+  
+  <protect>
+    <zh-CN>保护</zh-CN>
+    <es-ES>Proteger</es-ES>
+    <en-US>Protect</en-US>
+    <pt-PT>Proteger</pt-PT>
+    <ru-RU>защищать</ru-RU>
+    <ja-JP>保護する</ja-JP>
+    <de-DE>Schützen</de-DE>
+    <ar-EG>حماية</ar-EG>
+  </protect>
+
+  <share>
+    <zh-CN>分享</zh-CN>
+    <es-ES>Compartir</es-ES>
+    <en-US>Share</en-US>
+    <pt-PT>Compartilhe</pt-PT>
+    <ru-RU>доля</ru-RU>
+    <ja-JP>シェア</ja-JP>
+    <de-DE>Aktie</de-DE>
+    <ar-EG>سهم</ar-EG>
+  </share>
+
+  <help>
+    <zh-CN>帮助</zh-CN>
+    <es-ES>Ayuda</es-ES>
+    <en-US>Help</en-US>
+    <pt-PT>Ajuda</pt-PT>
+    <ru-RU>помощь</ru-RU>
+    <ja-JP>ヘルプ</ja-JP>
+    <de-DE>Hilfe</de-DE>
+    <ar-EG>مساعدة</ar-EG>
+  </help>
+</phrases>

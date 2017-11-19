@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<configuration>
+  <culture>es-ES</culture>
+
+  <languajes>
+    <languaje>zh-CN</languaje>
+    <languaje>es-ES</languaje>
+    <languaje>en-US</languaje>
+    <languaje>pt-PT</languaje>
+    <languaje>ru-RU</languaje>
+    <languaje>ja-JP</languaje>
+    <languaje>de-DE</languaje>
+    <languaje>ar-EG</languaje>
+  </languajes>
+</configuration>

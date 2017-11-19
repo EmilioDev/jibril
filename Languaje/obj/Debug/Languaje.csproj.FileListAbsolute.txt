@@ -1,0 +1,4 @@
+F:\proyectos\C#\developing\jibril\Languaje\bin\Debug\Languaje.dll
+F:\proyectos\C#\developing\jibril\Languaje\bin\Debug\Languaje.pdb
+F:\proyectos\C#\developing\jibril\Languaje\obj\Debug\Languaje.dll
+F:\proyectos\C#\developing\jibril\Languaje\obj\Debug\Languaje.pdb
