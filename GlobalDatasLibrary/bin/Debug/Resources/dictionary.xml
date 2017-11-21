@@ -98,4 +98,26 @@
     <de-DE>Hilfe</de-DE>
     <ar-EG>مساعدة</ar-EG>
   </help>
+  
+  <start>
+    <zh-CN></zh-CN>
+    <es-ES>Inicio</es-ES>
+    <en-US>Start</en-US>
+    <pt-PT></pt-PT>
+    <ru-RU></ru-RU>
+    <ja-JP></ja-JP>
+    <de-DE></de-DE>
+    <ar-EG></ar-EG>
+  </start>
+
+  <remove_tab>
+    <zh-CN></zh-CN>
+    <es-ES>¿Estás seguro de querer eliminar esta página?</es-ES>
+    <en-US>Are you sure you want to remove that page?</en-US>
+    <pt-PT></pt-PT>
+    <ru-RU></ru-RU>
+    <ja-JP></ja-JP>
+    <de-DE></de-DE>
+    <ar-EG></ar-EG>
+  </remove_tab>
 </phrases>

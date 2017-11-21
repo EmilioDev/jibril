@@ -7,3 +7,4 @@ E:\desarrollo\jibril\Speaker\bin\Debug\Speaker.dll
 E:\desarrollo\jibril\Speaker\bin\Debug\Speaker.pdb
 E:\desarrollo\jibril\Speaker\obj\Debug\Speaker.dll
 E:\desarrollo\jibril\Speaker\obj\Debug\Speaker.pdb
+E:\desarrollo\jibril\Speaker\obj\Debug\Speaker.csprojResolveAssemblyReference.cache

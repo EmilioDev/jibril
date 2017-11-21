@@ -59,11 +59,18 @@
     <Compile Include="Viewer\Menu.xaml.cs">
       <DependentUpon>Menu.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Viewer\TabProperty.xaml.cs">
+      <DependentUpon>TabProperty.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Viewer\Tabs.xaml.cs">
+      <DependentUpon>Tabs.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Viewer\TextDisplayer.xaml.cs">
       <DependentUpon>TextDisplayer.xaml</DependentUpon>
     </Compile>
     <Compile Include="Viewer\ViewModels\HeaderViewModel.cs" />
     <Compile Include="Viewer\ViewModels\MenuViewModel.cs" />
+    <Compile Include="Viewer\ViewModels\TabsViewModel.cs" />
     <Compile Include="Viewer\ViewModels\TextDisplayerViewModel.cs" />
     <Compile Include="Viewer\ViewModels\ViewModel.cs" />
     <Page Include="Themes\Generic.xaml">
@@ -86,6 +93,14 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Viewer\Menu.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\TabProperty.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\Tabs.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -136,6 +151,9 @@
     <Resource Include="Resources\Jibril.png">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Resources\delete.gif" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

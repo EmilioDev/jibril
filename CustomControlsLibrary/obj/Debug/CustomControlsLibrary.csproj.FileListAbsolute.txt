@@ -54,3 +54,7 @@ F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\Footer.
 F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\LateralNav.g.cs
 F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\Footer.baml
 F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\LateralNav.baml
+E:\desarrollo\jibril\CustomControlsLibrary\obj\Debug\Viewer\Tabs.g.cs
+E:\desarrollo\jibril\CustomControlsLibrary\obj\Debug\Viewer\TabProperty.g.cs
+E:\desarrollo\jibril\CustomControlsLibrary\obj\Debug\Viewer\TabProperty.baml
+E:\desarrollo\jibril\CustomControlsLibrary\obj\Debug\Viewer\Tabs.baml

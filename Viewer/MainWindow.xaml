@@ -6,9 +6,12 @@
         xmlns:local="clr-namespace:Viewer"
         xmlns:controls="clr-namespace:CustomControlsLibrary.Viewer;assembly=CustomControlsLibrary"
         mc:Ignorable="d"
-        Title="MainWindow" Height="{Binding UsableHeight}" Width="{Binding UsableWidth}" 
+        Title="MainWindow" Height="{Binding Height}" Width="{Binding UsableWidth}" 
         WindowStartupLocation="CenterOwner" WindowStyle="None" AllowsTransparency="True" 
         Background="Transparent">
+    <Window.Resources>
+        
+    </Window.Resources>
     <Grid x:Name="_grid" MouseLeftButtonDown="_grid_MouseLeftButtonDown">
         <Rectangle RadiusX="30" RadiusY="30">
             <Rectangle.Fill>
@@ -27,7 +30,7 @@
                     <ColumnDefinition Width="3*"/>
                 </Grid.ColumnDefinitions>
                 <controls:LateralNav Grid.Column="0"/>
-                <controls:TextDisplayer Grid.Column="1"/>
+                <controls:Tabs Grid.Column="1"/>
             </Grid>
             <controls:Footer/>
         </StackPanel>
