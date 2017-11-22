@@ -6,33 +6,28 @@
         xmlns:local="clr-namespace:Viewer"
         xmlns:controls="clr-namespace:CustomControlsLibrary.Viewer;assembly=CustomControlsLibrary"
         mc:Ignorable="d"
-        Title="MainWindow" Height="{Binding Height}" Width="{Binding UsableWidth}" 
-        WindowStartupLocation="CenterOwner" WindowStyle="None" AllowsTransparency="True" 
-        Background="Transparent">
+        Title="Jibril" Height="{Binding UsableHeight}" Width="{Binding UsableWidth}" 
+        WindowStartupLocation="CenterOwner">
     <Window.Resources>
-        
+
     </Window.Resources>
     <Grid x:Name="_grid" MouseLeftButtonDown="_grid_MouseLeftButtonDown">
-        <Rectangle RadiusX="30" RadiusY="30">
-            <Rectangle.Fill>
-                <LinearGradientBrush EndPoint="0,1">
-                    <GradientStop Color="DarkBlue" Offset="0" />
-                    <GradientStop Color="#80000080" Offset="1" />
-                </LinearGradientBrush>
-            </Rectangle.Fill>
-        </Rectangle>
-        <StackPanel Orientation="Vertical">
-            <controls:Header Margin="12"/>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition Height="15*"/>
+            </Grid.RowDefinitions>
+            <!--<controls:Header Margin="12"/>-->
             <controls:Menu/>
-            <Grid Background="Transparent">
+            <Grid Grid.Row="1" Background="Transparent">
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition/>
                     <ColumnDefinition Width="3*"/>
                 </Grid.ColumnDefinitions>
                 <controls:LateralNav Grid.Column="0"/>
-                <controls:Tabs Grid.Column="1"/>
+                <controls:Tabs Grid.Column="1" AllowDrop="True"/>
             </Grid>
-            <controls:Footer/>
-        </StackPanel>
+            <!--<controls:Footer/>-->
+        </Grid>
     </Grid>
 </Window>

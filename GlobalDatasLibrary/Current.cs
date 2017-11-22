@@ -37,7 +37,9 @@ namespace GlobalDatasLibrary
         public static string GetPhraseInCurrentLanguaje(string phrase)
         {
             XmlDocument doc = new XmlDocument();
-            doc.Load(@".\Resources\dictionary.xml");
+            string path = Environment.CurrentDirectory + @".\Resources\dictionary.xml";
+            //string path = @"/GlobalDatasLibrary;component/Resources/dictionary.xml";
+            doc.Load(path);
             string answer = string.Empty;
 
             string culture = GetCurrentCulture().IetfLanguageTag;

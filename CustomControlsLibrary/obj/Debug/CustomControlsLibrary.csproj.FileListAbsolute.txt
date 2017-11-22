@@ -58,3 +58,7 @@ E:\desarrollo\jibril\CustomControlsLibrary\obj\Debug\Viewer\Tabs.g.cs
 E:\desarrollo\jibril\CustomControlsLibrary\obj\Debug\Viewer\TabProperty.g.cs
 E:\desarrollo\jibril\CustomControlsLibrary\obj\Debug\Viewer\TabProperty.baml
 E:\desarrollo\jibril\CustomControlsLibrary\obj\Debug\Viewer\Tabs.baml
+F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\TabProperty.g.cs
+F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\Tabs.g.cs
+F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\TabProperty.baml
+F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\Tabs.baml

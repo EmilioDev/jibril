@@ -120,4 +120,15 @@
     <de-DE></de-DE>
     <ar-EG></ar-EG>
   </remove_tab>
+
+  <config_removing_error>
+    <zh-CN></zh-CN>
+    <es-ES>No puedes eliminar la página de configuración</es-ES>
+    <en-US>Cannot remove config page</en-US>
+    <pt-PT></pt-PT>
+    <ru-RU></ru-RU>
+    <ja-JP></ja-JP>
+    <de-DE></de-DE>
+    <ar-EG></ar-EG>
+  </config_removing_error>
 </phrases>

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-E:\desarrollo\jibril\CustomControlsLibrary\obj\Debug\
+F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\
 CustomControlsLibrary
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 81776760753
 
 161945387753
-15-1305214905
+151684769574
 Themes\Generic.xaml;Viewer\Footer.xaml;Viewer\Header.xaml;Viewer\LateralNav.xaml;Viewer\Menu.xaml;Viewer\TabProperty.xaml;Viewer\Tabs.xaml;Viewer\TextDisplayer.xaml;
 
 False

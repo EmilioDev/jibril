@@ -47,7 +47,7 @@ namespace CustomControlsLibrary.Viewer
 
         private void buttonExit_Click(object sender, RoutedEventArgs e)
         {
-
+            Application.Current.Shutdown();
         }
 
         private void Grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)

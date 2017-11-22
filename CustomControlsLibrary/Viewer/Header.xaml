@@ -9,7 +9,7 @@
              Background="Transparent">
     <UserControl.Resources>
         <DataTemplate x:Key="_buttonTemplate">
-            <Button Background="Blue"/>
+            
         </DataTemplate>
     </UserControl.Resources>
     <Grid MouseLeftButtonDown="Grid_MouseLeftButtonDown" MouseLeftButtonUp="Grid_MouseLeftButtonUp">

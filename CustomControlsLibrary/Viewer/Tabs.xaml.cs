@@ -174,7 +174,7 @@ namespace CustomControlsLibrary.Viewer
             {
                 if((tabDynamic.SelectedItem as TabItem).Name == "start_tab")
                 {
-                    MessageBox.Show("Cannot remove config tab.");
+                    MessageBox.Show(this._vm.Msg_Error_removing_Config);
                 }
                 //else if (_tabItems.Count < 3 )
                 //{
