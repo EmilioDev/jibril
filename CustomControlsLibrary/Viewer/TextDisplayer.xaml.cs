@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using DocumentLector.Formats;
+using CustomControlsLibrary.Viewer.ViewModels;
 
 namespace CustomControlsLibrary.Viewer
 {
@@ -21,17 +22,21 @@ namespace CustomControlsLibrary.Viewer
     /// </summary>
     public partial class TextDisplayer : UserControl
     {
+        private TextDisplayerViewModel _vm;
         public TextDisplayer()
         {
             InitializeComponent();
+            this._vm = new TextDisplayerViewModel();
+            this.DataContext = this._vm;
+            
         }
 
         public void SetContent(DocumentLector.Formats.Page page)
         {
-            //this._text.Inlines.Clear();
+            this._content.Inlines.Clear();
             if (page != null)
             {
-                //this._text.Inlines.AddRange(page.Lines);
+                this._content.Inlines.AddRange(page.Lines);
             }
         }
     }

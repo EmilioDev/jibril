@@ -24,11 +24,11 @@ namespace DocumentLector
             {
                 default://read as plane text
 
-                    PlaneTextAnalizer analizer = new PlaneTextAnalizer();
+                    PlaneTextAnalizer analizer = new PlaneTextAnalizer(source);
 
                     try
                     {
-                        return analizer.ReadDocument(source);
+                        return analizer.ReadDocument();
                     }
 
                     catch(FileNotFoundException notFound)

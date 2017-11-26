@@ -12,17 +12,23 @@ namespace DocumentLector.Formats.PlaneText
     {
         #region datas
         #endregion
+        #region constructors
+        public PlaneTextAnalizer(string sourceFile) : base(sourceFile)
+        {
+            //lol
+        }
+        #endregion
         #region functions
         public override void Close()
         {
             throw new NotImplementedException();
         }
 
-        public override BaseDataDocument ReadDocument(string fileName)
+        public override BaseDataDocument ReadDocument()
         {
-            if (File.Exists(fileName))
+            if (File.Exists(this._path))//esta comprobacion esta de mas
             {
-                FileInfo info = new FileInfo(fileName);
+                FileInfo info = new FileInfo(this._path);
 
                 bool ro = info.IsReadOnly;
                 bool fs = info.Attributes == FileAttributes.System;
@@ -31,7 +37,7 @@ namespace DocumentLector.Formats.PlaneText
                 List<Inline> doc = new List<Inline>();
                 const Int32 BufferSize = 128;
 
-                using (var fileStream = File.OpenRead(fileName))
+                using (var fileStream = File.OpenRead(this._path))
                 {
                     using (var streamReader = new StreamReader(fileStream, Encoding.UTF8, true, BufferSize))
                     {

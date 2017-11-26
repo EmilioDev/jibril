@@ -68,9 +68,13 @@
     <Compile Include="Viewer\TextDisplayer.xaml.cs">
       <DependentUpon>TextDisplayer.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Viewer\TextDisplayers_Container.xaml.cs">
+      <DependentUpon>TextDisplayers_Container.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Viewer\ViewModels\HeaderViewModel.cs" />
     <Compile Include="Viewer\ViewModels\MenuViewModel.cs" />
     <Compile Include="Viewer\ViewModels\TabsViewModel.cs" />
+    <Compile Include="Viewer\ViewModels\TextDisplayers_ContainerViewModel.cs" />
     <Compile Include="Viewer\ViewModels\TextDisplayerViewModel.cs" />
     <Compile Include="Viewer\ViewModels\ViewModel.cs" />
     <Page Include="Themes\Generic.xaml">
@@ -105,6 +109,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Viewer\TextDisplayer.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Viewer\TextDisplayers_Container.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

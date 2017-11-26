@@ -46,3 +46,5 @@ E:\desarrollo\jibril\Viewer\obj\Debug\Viewer.Properties.Resources.resources
 E:\desarrollo\jibril\Viewer\obj\Debug\Viewer.csproj.GenerateResource.Cache
 E:\desarrollo\jibril\Viewer\obj\Debug\Viewer.exe
 E:\desarrollo\jibril\Viewer\obj\Debug\Viewer.pdb
+F:\proyectos\C#\developing\jibril\Viewer\bin\Debug\itextsharp.dll
+F:\proyectos\C#\developing\jibril\Viewer\obj\Debug\GeneratedInternalTypeHelper.g.cs

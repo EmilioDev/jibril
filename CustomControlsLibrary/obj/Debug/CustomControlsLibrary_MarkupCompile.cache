@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 
-81776760753
+9-640602627
 
-161945387753
+18-220863837
 151684769574
-Themes\Generic.xaml;Viewer\Footer.xaml;Viewer\Header.xaml;Viewer\LateralNav.xaml;Viewer\Menu.xaml;Viewer\TabProperty.xaml;Viewer\Tabs.xaml;Viewer\TextDisplayer.xaml;
+Themes\Generic.xaml;Viewer\Footer.xaml;Viewer\Header.xaml;Viewer\LateralNav.xaml;Viewer\Menu.xaml;Viewer\TabProperty.xaml;Viewer\Tabs.xaml;Viewer\TextDisplayer.xaml;Viewer\TextDisplayers_Container.xaml;
 
 False
 

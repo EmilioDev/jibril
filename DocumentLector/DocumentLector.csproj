@@ -30,6 +30,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="itextsharp, Version=5.0.6.0, Culture=neutral, PublicKeyToken=8354ae6d2174ddca, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\Bibliotecas\iTextSharp\itextsharp\itextsharp.dll</HintPath>
+    </Reference>
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -46,17 +50,25 @@
     <Compile Include="Formats\BaseDataDocument.cs" />
     <Compile Include="Formats\BaseDocumentAnalizer.cs" />
     <Compile Include="Formats\Page.cs" />
+    <Compile Include="Formats\PDF\PdfAnalizer.cs" />
+    <Compile Include="Formats\PDF\PdfDocument.cs" />
     <Compile Include="Formats\PlaneText\PlaneTextAnalizer.cs" />
     <Compile Include="Formats\PlaneText\PlaneTextDocument.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Exceptions\" />
     <Folder Include="Formats\HTML\" />
     <Folder Include="Formats\Image\" />
     <Folder Include="Formats\Office\" />
-    <Folder Include="Formats\PDF\" />
     <Folder Include="Formats\Url\" />
     <Folder Include="Formats\Video\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GlobalDatasLibrary\GlobalDatasLibrary.csproj">
+      <Project>{5129f027-805f-424a-bf57-9c6ceacfe74b}</Project>
+      <Name>GlobalDatasLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

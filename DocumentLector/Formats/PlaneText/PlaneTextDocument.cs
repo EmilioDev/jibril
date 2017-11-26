@@ -9,6 +9,8 @@ namespace DocumentLector.Formats.PlaneText
     public class PlaneTextDocument:BaseDataDocument
     {
         #region datas
+        #endregion
+        #region constructors
         public PlaneTextDocument() : base()
         {
 

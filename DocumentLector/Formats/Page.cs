@@ -1,17 +1,17 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Documents;
+using System.Windows.Shapes;
 
 namespace DocumentLector.Formats
 {
     public class Page
     {
-        /// <summary>
-        /// Content of the page
-        /// </summary>
         public List<Inline> Lines { get; set; }
 
+        public Rectangle PageDimensions { get; set; }
 
-        public Page() : this(null)
+
+        public Page() : this(new List<Inline>())
         {
             //lol
         }
@@ -19,6 +19,13 @@ namespace DocumentLector.Formats
         public Page(List<Inline> lines)
         {
             this.Lines = lines;
+            this.PageDimensions = new Rectangle();
+        }
+
+        public Page(List<Inline>lines,Rectangle PageDimensions)
+        {
+            this.Lines = lines;
+            this.PageDimensions = PageDimensions;
         }
 
         //example

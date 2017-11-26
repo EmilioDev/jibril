@@ -62,3 +62,6 @@ F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\TabProp
 F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\Tabs.g.cs
 F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\TabProperty.baml
 F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\Tabs.baml
+F:\proyectos\C#\developing\jibril\CustomControlsLibrary\bin\Debug\itextsharp.dll
+F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\TextDisplayers_Container.g.cs
+F:\proyectos\C#\developing\jibril\CustomControlsLibrary\obj\Debug\Viewer\TextDisplayers_Container.baml

@@ -6,11 +6,19 @@
              xmlns:local="clr-namespace:CustomControlsLibrary.Viewer"
              xmlns:models="clr-namespace:CustomControlsLibrary.Viewer.ViewModels"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
-    <UserControl.Resources>
-        
-    </UserControl.Resources>
-    <Grid>
-        <TextBox x:Name="_text" Background="WhiteSmoke" Height="Auto" Grid.Row="0" TextWrapping="Wrap" AcceptsReturn="True"/>
+             d:DesignHeight="{Binding Height, Mode=TwoWay}" d:DesignWidth="{Binding Width,Mode=TwoWay}" Background="Transparent">
+    <Grid x:Name="_grid">
+        <!--<TextBox x:Name="_text" Background="WhiteSmoke" Height="Auto" Grid.Row="0" TextWrapping="Wrap" AcceptsReturn="True"/>-->
+        <Rectangle RadiusX="30" RadiusY="30">
+            <Rectangle.Fill>
+                <LinearGradientBrush EndPoint="0,1">
+                    <GradientStop Color="DarkBlue" Offset="0" />
+                    <GradientStop Color="#80000080" Offset="1" />
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <TextBlock x:Name="_content" Margin="12">
+            
+        </TextBlock>
     </Grid>
 </UserControl>

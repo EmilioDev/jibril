@@ -6,3 +6,9 @@ E:\desarrollo\jibril\DocumentLector\bin\Debug\DocumentLector.dll
 E:\desarrollo\jibril\DocumentLector\bin\Debug\DocumentLector.pdb
 E:\desarrollo\jibril\DocumentLector\obj\Debug\DocumentLector.dll
 E:\desarrollo\jibril\DocumentLector\obj\Debug\DocumentLector.pdb
+F:\proyectos\C#\developing\jibril\DocumentLector\obj\Debug\DocumentLector.csprojResolveAssemblyReference.cache
+F:\proyectos\C#\developing\jibril\DocumentLector\bin\Debug\Resources\config.xml
+F:\proyectos\C#\developing\jibril\DocumentLector\bin\Debug\Resources\dictionary.xml
+F:\proyectos\C#\developing\jibril\DocumentLector\bin\Debug\GlobalDatasLibrary.dll
+F:\proyectos\C#\developing\jibril\DocumentLector\bin\Debug\itextsharp.dll
+F:\proyectos\C#\developing\jibril\DocumentLector\bin\Debug\GlobalDatasLibrary.pdb
