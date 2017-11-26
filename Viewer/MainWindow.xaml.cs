@@ -27,6 +27,7 @@ namespace Viewer
             InitializeComponent();
             this.vm = new MainWindowViewModel();
             this.DataContext = this.vm;
+            this.WindowState = WindowState.Maximized;
         }
 
         private void _grid_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
