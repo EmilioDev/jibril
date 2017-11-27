@@ -34,9 +34,11 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\Bibliotecas\iTextSharp\itextsharp\itextsharp.dll</HintPath>
     </Reference>
+    <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
     <Reference Include="System.Windows" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -44,12 +46,16 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DocumentLector.cs" />
     <Compile Include="Formats\BaseDataDocument.cs" />
     <Compile Include="Formats\BaseDocumentAnalizer.cs" />
     <Compile Include="Formats\Page.cs" />
+    <Compile Include="Formats\PDF\BitmapSourceExtension.cs" />
+    <Compile Include="Formats\PDF\ImageRenderListener.cs" />
+    <Compile Include="Formats\PDF\NativeMethods.cs" />
     <Compile Include="Formats\PDF\PdfAnalizer.cs" />
     <Compile Include="Formats\PDF\PdfDocument.cs" />
     <Compile Include="Formats\PlaneText\PlaneTextAnalizer.cs" />

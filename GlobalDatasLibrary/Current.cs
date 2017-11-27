@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using GlobalDatasLibrary.Datas;
 using System.Globalization;
 using System.Xml;
+using System.Xml.Linq;
 
 namespace GlobalDatasLibrary
 {
@@ -36,21 +37,13 @@ namespace GlobalDatasLibrary
 
         public static string GetPhraseInCurrentLanguaje(string phrase)
         {
-            XmlDocument doc = new XmlDocument();
             string path = Environment.CurrentDirectory + @".\Resources\dictionary.xml";
-            //string path = @"/GlobalDatasLibrary;component/Resources/dictionary.xml";
-            doc.Load(path);
-            string answer = string.Empty;
 
             string culture = GetCurrentCulture().IetfLanguageTag;
-            XmlNodeList values = doc.GetElementsByTagName(phrase);
+            XDocument doc = XDocument.Load(path);
 
-            foreach(XmlElement val in values)
-            {
-                answer = val.GetElementsByTagName(culture).Item(0).InnerText;
-            }
-
-            return answer;
+            var tmp = from x in doc.Root.Elements(phrase) select new { x.Element(culture).Value }.Value;
+            return tmp.FirstOrDefault();
         }
 
         public static CultureInfo GetCurrentCulture()

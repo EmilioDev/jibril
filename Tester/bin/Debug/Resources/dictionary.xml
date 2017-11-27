@@ -100,46 +100,46 @@
   </help>
   
   <start>
-    <zh-CN></zh-CN>
+    <zh-CN>引发</zh-CN>
     <es-ES>Inicio</es-ES>
     <en-US>Start</en-US>
-    <pt-PT></pt-PT>
-    <ru-RU></ru-RU>
-    <ja-JP></ja-JP>
-    <de-DE></de-DE>
-    <ar-EG></ar-EG>
+    <pt-PT>Home</pt-PT>
+    <ru-RU>инициирование</ru-RU>
+    <ja-JP>ホーム</ja-JP>
+    <de-DE>Startseite</de-DE>
+    <ar-EG>استهلال</ar-EG>
   </start>
 
   <remove_tab>
-    <zh-CN></zh-CN>
+    <zh-CN>您确定要删除此页面吗？</zh-CN>
     <es-ES>¿Estás seguro de querer eliminar esta página?</es-ES>
     <en-US>Are you sure you want to remove that page?</en-US>
-    <pt-PT></pt-PT>
-    <ru-RU></ru-RU>
-    <ja-JP></ja-JP>
-    <de-DE></de-DE>
-    <ar-EG></ar-EG>
+    <pt-PT>Tem certeza de que deseja excluir esta página?</pt-PT>
+    <ru-RU>Вы действительно хотите удалить эту страницу?</ru-RU>
+    <ja-JP>このページを削除してもよろしいですか？</ja-JP>
+    <de-DE>Möchten Sie diese Seite wirklich löschen?</de-DE>
+    <ar-EG>هل تريد بالتأكيد حذف هذه الصفحة؟</ar-EG>
   </remove_tab>
 
   <config_removing_error>
-    <zh-CN></zh-CN>
+    <zh-CN>您不能删除配置页面</zh-CN>
     <es-ES>No puedes eliminar la página de configuración</es-ES>
     <en-US>Cannot remove config page</en-US>
-    <pt-PT></pt-PT>
-    <ru-RU></ru-RU>
-    <ja-JP></ja-JP>
-    <de-DE></de-DE>
-    <ar-EG></ar-EG>
+    <pt-PT>Você não pode excluir a página de configuração</pt-PT>
+    <ru-RU>Вы не можете удалить страницу конфигурации</ru-RU>
+    <ja-JP>設定ページを削除することはできません</ja-JP>
+    <de-DE>Sie können die Konfigurationsseite nicht löschen</de-DE>
+    <ar-EG>لا يمكنك حذف صفحة التكوين</ar-EG>
   </config_removing_error>
 
   <file_not_found>
-    <zh-CN></zh-CN>
+    <zh-CN>提供的文件地址无效</zh-CN>
     <es-ES>La dirección de archivo suministrada no es válida</es-ES>
-    <en-US></en-US>
-    <pt-PT></pt-PT>
-    <ru-RU></ru-RU>
-    <ja-JP></ja-JP>
-    <de-DE></de-DE>
-    <ar-EG></ar-EG>
+    <en-US>The supplied file address is not valid</en-US>
+    <pt-PT>O endereço do arquivo fornecido não é válido</pt-PT>
+    <ru-RU>Указанный адрес файла недействителен</ru-RU>
+    <ja-JP>指定されたファイルアドレスは無効です</ja-JP>
+    <de-DE>Die angegebene Dateiadresse ist ungültig</de-DE>
+    <ar-EG>عنوان الملف المرفق غير صالح</ar-EG>
   </file_not_found>
 </phrases>

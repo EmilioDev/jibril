@@ -10,4 +10,3 @@ E:\desarrollo\jibril\GlobalDatasLibrary\bin\Debug\GlobalDatasLibrary.dll
 E:\desarrollo\jibril\GlobalDatasLibrary\bin\Debug\GlobalDatasLibrary.pdb
 E:\desarrollo\jibril\GlobalDatasLibrary\obj\Debug\GlobalDatasLibrary.dll
 E:\desarrollo\jibril\GlobalDatasLibrary\obj\Debug\GlobalDatasLibrary.pdb
-F:\proyectos\C#\developing\jibril\GlobalDatasLibrary\obj\Debug\GlobalDatasLibrary.csprojResolveAssemblyReference.cache
